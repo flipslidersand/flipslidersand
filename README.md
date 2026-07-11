@@ -6,14 +6,14 @@ Systems programming enthusiast — building things in Rust & Go, automating ever
 
 ## Featured Projects
 
-| Project                                                            | What it is                                                                       |
-| ------------------------------------------------------------------ | -------------------------------------------------------------------------------- |
-| [forge](https://github.com/flipslidersand/forge)                   | Automatic GPU kernel optimizer — Triton kernel search for PyTorch ops            |
-| [fluxion](https://github.com/flipslidersand/fluxion)               | Safe Wasm-based job execution engine with capability sandboxing + DAG scheduling |
-| [safecode-arena](https://github.com/flipslidersand/safecode-arena) | Automated evaluation runner for AI-generated code (Rust + Wasmtime)              |
-| [ember-query](https://github.com/flipslidersand/ember-query)       | Small vectorized SQL engine for CSV/Parquet (Rust)                               |
-| [otel-lens](https://github.com/flipslidersand/otel-lens)           | OpenTelemetry signal correlation engine (Go + ClickHouse)                        |
-| [zenn-content](https://github.com/flipslidersand/zenn-content)     | 記事の下書きを自動蓄積するパイプライン (SQLite + Gemini + GitHub Actions)        |
+| Project                                                                      | What it is                                                                                         |
+| ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| [forge](https://github.com/flipslidersand/forge)                             | Automatic GPU kernel optimizer — Triton kernel search for PyTorch ops                              |
+| [fluxion](https://github.com/flipslidersand/fluxion)                         | Safe Wasm-based job execution engine with capability sandboxing + DAG scheduling                   |
+| [api-server](https://github.com/flipslidersand/api-server)                   | REST API with JWT auth + RBAC — 95%+ test coverage (Node.js / Express)                             |
+| [decision-log-system](https://github.com/flipslidersand/decision-log-system) | Decision logging & retrieval system (Next.js / TypeScript)                                         |
+| [food-simulator](https://github.com/flipslidersand/food-simulator)           | Meal-planning simulator (Svelte 5) — [live demo](https://flipslidersand.github.io/food-simulator/) |
+| [zenn-content](https://github.com/flipslidersand/zenn-content)               | 記事の下書きを自動蓄積するパイプライン (SQLite + Gemini + GitHub Actions)                          |
 
 ## Writing
 
