@@ -1,29 +1,41 @@
-# flipslidersand 🐧
+# flipslidersand
 
-コードを書くのが好きなエンジニア。Rust / Go / AI インフラが守備範囲。
+Full-stack engineer building systems at the intersection of AI, data engineering, and infrastructure.
 
-Systems programming enthusiast — building things in Rust & Go, automating everything with AI agents.
+Currently working as a sole engineer at a used-car export company: Go backend · React · GCP (Cloud Run / Cloud SQL / Vertex AI) · Kubernetes + Argo CD · OTel + Grafana. Production in ~4 months, 153 PRs.
+
+---
 
 ## Featured Projects
 
-| Project                                                            | What it is                                                                                         |
-| ------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- |
-| [forge](https://github.com/flipslidersand/forge)                   | Automatic GPU kernel optimizer — Triton kernel search for PyTorch ops                              |
-| [fluxion](https://github.com/flipslidersand/fluxion)               | Safe Wasm-based job execution engine with capability sandboxing + DAG scheduling                   |
-| [api-server](https://github.com/flipslidersand/api-server)         | REST API with JWT auth + RBAC — 95%+ test coverage (Node.js / Express)                             |
-| [safecode-arena](https://github.com/flipslidersand/safecode-arena) | Automated evaluation runner for AI-generated code — sandbox + 5-axis scoring (Rust + Wasmtime)     |
-| [food-simulator](https://github.com/flipslidersand/food-simulator) | Meal-planning simulator (Svelte 5) — [live demo](https://flipslidersand.github.io/food-simulator/) |
-| [zenn-content](https://github.com/flipslidersand/zenn-content)     | 記事の下書きを自動蓄積するパイプライン (SQLite + Gemini + GitHub Actions)                          |
+| Project                                                                                              | What it is                                                                                                           |
+| ---------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| [forge](https://github.com/flipslidersand/forge)                                                     | Automatic GPU kernel optimizer — `@forge.optimize` auto-tunes Triton kernels for RMSNorm / Softmax / Flash Attention |
+| [marketplace-lakehouse-reference](https://github.com/flipslidersand/marketplace-lakehouse-reference) | Medallion Architecture (Bronze→Silver→Gold) with PySpark 4.1 · Delta Lake 4.3 · Streamlit — 31/31 tests              |
+| [fluxion](https://github.com/flipslidersand/fluxion)                                                 | Distributed Wasm job execution engine — capability sandboxing, DAG scheduling, OOM/timeout isolation                 |
+| [safecode-arena](https://github.com/flipslidersand/safecode-arena)                                   | AI-generated code evaluation runner — Wasmtime sandbox + 5-axis scoring (Rust)                                       |
+| [trace-nest](https://github.com/flipslidersand/trace-nest)                                           | eBPF-based Linux process / network / file event observer (Rust + Aya)                                                |
+| [model-harbor](https://github.com/flipslidersand/model-harbor)                                       | Multi-model AI routing gateway with OPA policies (Go)                                                                |
+
+---
 
 ## Writing
 
-Zenn で「実行・自動化・チームの働き方」について書いています → [zenn.dev/flipslidersand](https://zenn.dev/flipslidersand)
+→ [zenn.dev/flipslidersand](https://zenn.dev/flipslidersand) (Japanese) · [dev.to/flipslidersand](https://dev.to/flipslidersand) (English)
 
-- [Claude Code に「ヘルプ」を投げ続けたら、Zenn下書き自動生成パイプラインが半日でできた](https://zenn.dev/flipslidersand/articles/claude-code-zenn-pipeline)
-- [知識がない ≠ 罪。実行しないことが罪になる時代へ](https://zenn.dev/flipslidersand/articles/action-over-knowledge)
+**Selected articles:**
 
-## Interests
+- [AI-native dev flow: 4 months, 153 PRs, production](https://dev.to/flipslidersand/ai-native-development-flow-4-months-153-prs-production-10j3) — Dev.to
+- [The AI Is Fast. The Decisions Are Mine.](https://dev.to/flipslidersand/the-ai-is-fast-the-decisions-are-mine-35p5) — Dev.to
+- [AI-native 開発フロー — 4ヶ月で153PR・本番稼働した実測データ](https://zenn.dev/flipslidersand/articles/ai-native-dev-flow-4months) — Zenn
+- [システム化すべき業務、しなくていい業務](https://zenn.dev/flipslidersand/articles/bpr-requirements-scope) — Zenn
 
-- GPU / systems performance (Triton, eBPF, incremental computation)
-- AI-assisted development workflows — agent pipelines, verification gates
-- Kubernetes & observability (OTel, Prometheus, Grafana)
+---
+
+## Stack
+
+**Current:** Go · Rust · Python · TypeScript/React  
+**Infra:** GCP · Kubernetes · Argo CD · Docker  
+**Data:** PySpark · Delta Lake · PostgreSQL · SQLite  
+**Observability:** OpenTelemetry · Grafana · Prometheus  
+**AI:** Claude API · Vertex AI · Triton (GPU kernels) · Wasmtime
