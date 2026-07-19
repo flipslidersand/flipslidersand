@@ -1,41 +1,92 @@
-# flipslidersand
+# 花島 祐輝 — Forward Deployed Engineer
 
-Full-stack engineer building systems at the intersection of AI, data engineering, and infrastructure.
+**Data Platform | Distributed Systems | Observability**
 
-Currently working as a sole engineer at a used-car export company: Go backend · React · GCP (Cloud Run / Cloud SQL / Vertex AI) · Kubernetes + Argo CD · OTel + Grafana. Production in ~4 months, 153 PRs.
+I help customers solve data and infrastructure challenges using Databricks, Spark, and cloud platforms. Currently building data pipelines and observability systems at production scale.
+
+---
+
+## What I Do
+
+- **Data Engineering**: Medallion Architecture (Bronze/Silver/Gold), Delta Lake, PySpark, BigQuery
+- **Distributed Systems**: Go, Rust, gRPC, Kubernetes, eBPF kernel probing
+- **Observability**: OpenTelemetry, Prometheus, Grafana — designing multi-layer observability for production environments
+- **Customer-Centric Problem Solving**: 15 years of cross-functional experience (healthcare, logistics, fintech) translates to understanding enterprise adoption barriers
 
 ---
 
 ## Featured Projects
 
-| Project                                                                                              | What it is                                                                                                           |
-| ---------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| [forge](https://github.com/flipslidersand/forge)                                                     | Automatic GPU kernel optimizer — `@forge.optimize` auto-tunes Triton kernels for RMSNorm / Softmax / Flash Attention |
-| [marketplace-lakehouse-reference](https://github.com/flipslidersand/marketplace-lakehouse-reference) | Medallion Architecture (Bronze→Silver→Gold) with PySpark 4.1 · Delta Lake 4.3 · Streamlit — 31/31 tests              |
-| [fluxion](https://github.com/flipslidersand/fluxion)                                                 | Distributed Wasm job execution engine — capability sandboxing, DAG scheduling, OOM/timeout isolation                 |
-| [safecode-arena](https://github.com/flipslidersand/safecode-arena)                                   | AI-generated code evaluation runner — Wasmtime sandbox + 5-axis scoring (Rust)                                       |
-| [trace-nest](https://github.com/flipslidersand/trace-nest)                                           | eBPF-based Linux process / network / file event observer (Rust + Aya)                                                |
-| [model-harbor](https://github.com/flipslidersand/model-harbor)                                       | Multi-model AI routing gateway with OPA policies (Go)                                                                |
+### 🏗️ [marketplace-lakehouse-reference](https://github.com/flipslidersand/marketplace-lakehouse-reference)
+**Medallion Architecture Data Platform**  
+PySpark · Delta Lake · Streamlit · CI/CD
+
+Complete implementation of Bronze→Silver→Gold data pipeline. Multi-source e-commerce data (orders, inventory, prices) → integrated analytics mart. 31 tests passing, CI green.
+- **Why it matters**: Reference architecture for Databricks customers; showcases best practices for incremental quality validation
 
 ---
 
-## Writing
+### 🔍 [sentinel-mesh](https://github.com/flipslidersand/sentinel-mesh)
+**Distributed Observability Platform**  
+Rust Agent (eBPF) · Go Collector · gRPC · REST API
 
-→ [zenn.dev/flipslidersand](https://zenn.dev/flipslidersand) (Japanese) · [dev.to/flipslidersand](https://dev.to/flipslidersand) (English)
-
-**Selected articles:**
-
-- [AI-native dev flow: 4 months, 153 PRs, production](https://dev.to/flipslidersand/ai-native-development-flow-4-months-153-prs-production-10j3) — Dev.to
-- [The AI Is Fast. The Decisions Are Mine.](https://dev.to/flipslidersand/the-ai-is-fast-the-decisions-are-mine-35p5) — Dev.to
-- [AI-native 開発フロー — 4ヶ月で153PR・本番稼働した実測データ](https://zenn.dev/flipslidersand/articles/ai-native-dev-flow-4months) — Zenn
-- [システム化すべき業務、しなくていい業務](https://zenn.dev/flipslidersand/articles/bpr-requirements-scope) — Zenn
+eBPF-based kernel probing for production-grade observability. Observes network, CPU, I/O across distributed systems without instrumenting application code.
+- **Why it matters**: Lessons learned applying to production ML inference cost monitoring
 
 ---
 
-## Stack
+### ⚙️ [fluxion](https://github.com/flipslidersand/fluxion)
+**Distributed WebAssembly Job Scheduler**  
+Rust · WebAssembly · MCP
 
-**Current:** Go · Rust · Python · TypeScript/React  
-**Infra:** GCP · Kubernetes · Argo CD · Docker  
-**Data:** PySpark · Delta Lake · PostgreSQL · SQLite  
-**Observability:** OpenTelemetry · Grafana · Prometheus  
-**AI:** Claude API · Vertex AI · Triton (GPU kernels) · Wasmtime
+DAG scheduler for distributed compute jobs. Sandbox isolation, MCP tool integration, auto-scaling.
+- **Why it matters**: Distributed processing pipeline design patterns
+
+---
+
+## Tech Stack
+
+```
+Languages:       Go · Rust · Python · TypeScript · JavaScript
+Data:            PySpark · Delta Lake · BigQuery · Apache Airflow · PostgreSQL
+Cloud:           GCP (BigQuery, Cloud Run, Cloud SQL, Vertex AI, Pub/Sub)
+Infra:           Kubernetes · Argo CD · Docker · Terraform
+Observability:   OpenTelemetry · Prometheus · Grafana
+AI/LLM:          Claude API · Vertex AI · Gemini
+```
+
+---
+
+## Recent Work
+
+**Goonet Exchange — Internal Platform Lead** (2026-03 to present)  
+Built end-to-end data system from requirements → production cutover in ~4 months (solo).
+
+- PostgreSQL data modeling (Medallion principles)
+- GCP data pipeline (Cloud SQL → ETL → BigQuery)
+- Kubernetes + Argo CD (GitOps)
+- OpenTelemetry + Grafana observability
+
+**Impact**: ¥8–15M cost avoidance vs. outsourcing  
+**Velocity**: 1,431 commits × 22 repositories in 4 months (with meetings & training)  
+**Reliability**: 2-day incident response to deploy audit MVP for data breach
+
+---
+
+## Featured Articles
+
+- [AI-Native Development Flow: 4 Months, 153 PRs, Production](https://dev.to/flipslidersand/ai-native-development-flow-4-months-153-prs-production-10j3)
+- [The AI Is Fast. The Decisions Are Mine.](https://dev.to/flipslidersand/the-ai-is-fast-the-decisions-are-mine-35p5)
+- [People Who Resist Change Are Often Protecting Something](https://dev.to/flipslidersand/people-who-resist-change-are-often-protecting-something-1pgn)
+
+---
+
+## Let's Connect
+
+- **GitHub**: [github.com/flipslidersand](https://github.com/flipslidersand)
+- **Zenn**: [zenn.dev/flipslidersand](https://zenn.dev/flipslidersand)
+- **Dev.to**: [dev.to/flipslidersand](https://dev.to/flipslidersand)
+- **LinkedIn**: [linkedin.com/in/yuki-hanajima-710325404](https://linkedin.com/in/yuki-hanajima-710325404)
+- **Email**: yukihanajob2025@gmail.com
+
+Looking for Forward Deployed Engineer / Data Platform Engineer roles. Open to relocation; remote preferred.
