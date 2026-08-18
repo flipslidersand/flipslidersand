@@ -39,17 +39,29 @@ PySpark · Delta Lake · Streamlit · CI/CD
 
 Reference implementation of a Bronze → Silver → Gold pipeline for multi-source e-commerce data, with incremental processing and data-quality validation.
 
-### 🔍 [sentinel-mesh](https://github.com/flipslidersand/sentinel-mesh)
-**Distributed Observability Platform**  
-Rust · eBPF · Go · gRPC · REST API
-
-Experimental observability platform using kernel-level signals and distributed collection to explore low-overhead infrastructure monitoring.
-
 ### ⚙️ [fluxion](https://github.com/flipslidersand/fluxion)
 **Distributed WebAssembly Job Scheduler**  
 Rust · WebAssembly · MCP
 
 R&D project exploring DAG scheduling, sandboxed execution, distributed workers, and workflow orchestration.
+
+### 🧠 [context-smith](https://github.com/flipslidersand/context-smith)
+**AI Context Compiler (CLI)**  
+Rust · Tantivy · Tree-sitter · BM25 + vector search
+
+Extracts task-relevant code from Git repositories into token-budgeted context bundles for LLMs. Offline-first, dependency-light, with ADR-documented design decisions.
+
+### 🌊 [stream-rail](https://github.com/flipslidersand/stream-rail)
+**Stream Processing Engine**  
+Go · Tumbling Windows · BadgerDB · NATS
+
+Real-time event aggregation over tumbling windows with watermarks, persistent state, and pluggable ingestion/notification — built to explore stream-processing internals.
+
+### 🧩 [wasm-runtime](https://github.com/flipslidersand/wasm-runtime)
+**WebAssembly Binary Parser**  
+Rust · LEB128 · 136 tests
+
+Decodes every known section (ids 0–12) of the WebAssembly MVP binary format into typed structs, with a `wasm-dump` CLI.
 
 ---
 
