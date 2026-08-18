@@ -2,73 +2,70 @@
 
 **Data Platform | Distributed Systems | Observability**
 
-I help customers solve data and infrastructure challenges using Databricks, Spark, and cloud platforms. Currently building data pipelines and observability systems at production scale.
+I build and experiment with data platforms, distributed systems, and AI-assisted infrastructure. My focus is turning ambiguous operational problems into working software, data pipelines, and observable systems.
 
 ---
 
 ## What I Do
 
-- **Data Engineering**: Medallion Architecture (Bronze/Silver/Gold), Delta Lake, PySpark, BigQuery
-- **Distributed Systems**: Go, Rust, gRPC, Kubernetes, eBPF kernel probing
-- **Observability**: OpenTelemetry, Prometheus, Grafana — designing multi-layer observability for production environments
-- **Customer-Centric Problem Solving**: 15 years of cross-functional experience (healthcare, logistics, fintech) translates to understanding enterprise adoption barriers
+- **Application & Data Engineering**: Go, Python, TypeScript, PostgreSQL, BigQuery
+- **Distributed Systems**: Rust, Go, gRPC, WebAssembly, Kubernetes
+- **Observability & Platform Engineering**: OpenTelemetry, Prometheus, Grafana, Argo CD, Docker
+- **AI-Assisted Engineering**: Claude, Gemini, Vertex AI, RAG, embeddings, AI-assisted implementation and review workflows
+- **R&D / Exploration**: PySpark, Delta Lake, eBPF, Terraform, Apache Airflow and related platform technologies
 
 ---
 
-## Featured Projects
+## Production Work
+
+### Internal Business Platform — Platform / Application Engineering
+Built an internal business system from requirements through production cutover in ~4 months, working across application, data, cloud infrastructure, deployment, and operations.
+
+- Go / Python / React / TypeScript
+- PostgreSQL / Cloud SQL
+- GCP (Cloud Run, Cloud Functions, Cloud Storage, Vertex AI, Cloud Build)
+- CI/CD, observability, incident-oriented tooling and operational improvements
+
+**Impact**: estimated ¥8–15M cost avoidance compared with full external development  
+**Velocity**: 1,431 commits across 22 repositories in 4 months, alongside meetings and internal support
+
+---
+
+## Open Source & R&D
 
 ### 🏗️ [marketplace-lakehouse-reference](https://github.com/flipslidersand/marketplace-lakehouse-reference)
 **Medallion Architecture Data Platform**  
 PySpark · Delta Lake · Streamlit · CI/CD
 
-Complete implementation of Bronze→Silver→Gold data pipeline. Multi-source e-commerce data (orders, inventory, prices) → integrated analytics mart. 31 tests passing, CI green.
-- **Why it matters**: Reference architecture for Databricks customers; showcases best practices for incremental quality validation
-
----
+Reference implementation of a Bronze → Silver → Gold pipeline for multi-source e-commerce data, with incremental processing and data-quality validation.
 
 ### 🔍 [sentinel-mesh](https://github.com/flipslidersand/sentinel-mesh)
 **Distributed Observability Platform**  
-Rust Agent (eBPF) · Go Collector · gRPC · REST API
+Rust · eBPF · Go · gRPC · REST API
 
-eBPF-based kernel probing for production-grade observability. Observes network, CPU, I/O across distributed systems without instrumenting application code.
-- **Why it matters**: Lessons learned applying to production ML inference cost monitoring
-
----
+Experimental observability platform using kernel-level signals and distributed collection to explore low-overhead infrastructure monitoring.
 
 ### ⚙️ [fluxion](https://github.com/flipslidersand/fluxion)
 **Distributed WebAssembly Job Scheduler**  
 Rust · WebAssembly · MCP
 
-DAG scheduler for distributed compute jobs. Sandbox isolation, MCP tool integration, auto-scaling.
-- **Why it matters**: Distributed processing pipeline design patterns
+R&D project exploring DAG scheduling, sandboxed execution, distributed workers, and workflow orchestration.
 
 ---
 
 ## Tech Stack
 
+```text
+Production / frequent use:
+  Go · Python · TypeScript · React · PostgreSQL
+  GCP · Cloud Run · Cloud SQL · Cloud Build
+  Docker · GitHub Actions · OpenTelemetry · Prometheus · Grafana
+  Claude · Gemini · Vertex AI · RAG · Vector Search
+
+R&D / project use:
+  Rust · WebAssembly · Kubernetes · Argo CD
+  PySpark · Delta Lake · BigQuery · Terraform · Apache Airflow · eBPF
 ```
-Languages:       Go · Rust · Python · TypeScript · JavaScript
-Data:            PySpark · Delta Lake · BigQuery · Apache Airflow · PostgreSQL
-Cloud:           GCP (BigQuery, Cloud Run, Cloud SQL, Vertex AI, Pub/Sub)
-Infra:           Kubernetes · Argo CD · Docker · Terraform
-Observability:   OpenTelemetry · Prometheus · Grafana
-AI/LLM:          Claude API · Vertex AI · Gemini
-```
-
----
-
-## Recent Work
-
-**Goonet Exchange — Internal Platform Lead** (2026-03 to present)  
-Built end-to-end data system from requirements → production cutover in ~4 months (solo).
-
-- PostgreSQL data modeling (Medallion principles)
-- GCP data pipeline (Cloud SQL → ETL → BigQuery)
-- Kubernetes + Argo CD (GitOps)
-- OpenTelemetry + Grafana observability
-
-**Impact**: ¥8–15M cost avoidance vs. outsourcing  
-**Velocity**: 1,431 commits × 22 repositories in 4 months (with meetings & training)
 
 ---
 
