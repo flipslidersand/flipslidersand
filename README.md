@@ -65,6 +65,24 @@ Decodes every known section (ids 0–12) of the WebAssembly MVP binary format in
 
 ---
 
+## 📋 Project Board
+
+Shipped projects are tracked on a public board — every card links to a real repository with its Issue ↔ PR ↔ commit trail.
+
+▶️ **[Portfolio Roadmap — GitHub Projects](https://github.com/users/flipslidersand/projects/11)**
+
+```mermaid
+timeline
+    title Shipped Projects
+    mesh-drop        : Distributed file delivery : v0.2.0 released
+    sentinel-mesh    : Distributed monitoring mesh : 9 phases complete
+    wasm-runtime     : WASM binary parser : 136 tests
+    stream-rail      : Stream processing engine : 6 phases complete
+    context-smith    : AI context compiler (CLI) : v0.1.0 released
+```
+
+---
+
 ## Tech Stack
 
 ```text
