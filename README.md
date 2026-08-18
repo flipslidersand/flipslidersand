@@ -85,7 +85,6 @@ Built end-to-end data system from requirements → production cutover in ~4 mont
 - **GitHub**: [github.com/flipslidersand](https://github.com/flipslidersand)
 - **Zenn**: [zenn.dev/flipslidersand](https://zenn.dev/flipslidersand)
 - **Dev.to**: [dev.to/flipslidersand](https://dev.to/flipslidersand)
-- **LinkedIn**: [linkedin.com/in/yuki-hanajima-710325404](https://linkedin.com/in/yuki-hanajima-710325404)
 - **Email**: yukihanajob2025@gmail.com
 
 Looking for Forward Deployed Engineer / Data Platform Engineer roles. Open to relocation; remote preferred.
