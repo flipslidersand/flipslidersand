@@ -68,8 +68,7 @@ Built end-to-end data system from requirements → production cutover in ~4 mont
 - OpenTelemetry + Grafana observability
 
 **Impact**: ¥8–15M cost avoidance vs. outsourcing  
-**Velocity**: 1,431 commits × 22 repositories in 4 months (with meetings & training)  
-**Reliability**: 2-day incident response to deploy audit MVP for data breach
+**Velocity**: 1,431 commits × 22 repositories in 4 months (with meetings & training)
 
 ---
 
