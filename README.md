@@ -63,6 +63,24 @@ Rust · LEB128 · 136 tests
 
 Decodes every known section (ids 0–12) of the WebAssembly MVP binary format into typed structs, with a `wasm-dump` CLI.
 
+### 🔍 [scam-alert](https://github.com/flipslidersand/scam-alert)
+**Screenshot-to-DB Scam Pattern Detector**  
+Go · GCP Vision API · React
+
+OCR-based pipeline that extracts text from scam screenshots, classifies patterns against a database, and surfaces matches via a React web UI. Deployed on Cloud Run.
+
+### 📡 [oss-radar](https://github.com/flipslidersand-labs/oss-radar)
+**OSS Trending Collector & Semantic Search**  
+Python · Qdrant · GitHub API
+
+Aggregates GitHub trending, ossinsight, and bestofjs into a Qdrant vector store for natural-language queries over OSS activity data. Scheduled via cron with MCP integration.
+
+### 🏙️ [city-score](https://github.com/flipslidersand/city-score)
+**City Livability Scoring Engine**  
+Python · e-Stat API · Streamlit
+
+Scores Japanese cities across 6 original indicators (career sustainability, life-cost efficiency, post-retirement employment, etc.) using public statistical data. CLI + Streamlit UI.
+
 ---
 
 ## 📋 Project Board
@@ -79,6 +97,9 @@ timeline
     wasm-runtime     : WASM binary parser : 136 tests
     stream-rail      : Stream processing engine : 6 phases complete
     context-smith    : AI context compiler (CLI) : v0.1.0 released
+    scam-alert       : OCR scam detector : Go + GCP
+    oss-radar        : OSS semantic search : Python + Qdrant
+    city-score       : City livability scorer : Python + e-Stat
 ```
 
 ---
