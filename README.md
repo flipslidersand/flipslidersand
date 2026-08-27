@@ -1,138 +1,75 @@
-# flipslidersand — Forward Deployed Engineer
+# flipslidersand — Forward Deployed Engineer / Applied AI Engineer
 
-**Data Platform | Distributed Systems | Observability**
+**花島 祐輝 | Yuki Hanajima**
 
-I build and experiment with data platforms, distributed systems, and AI-assisted infrastructure. My focus is turning ambiguous operational problems into working software, data pipelines, and observable systems.
-
----
-
-## What I Do
-
-- **Application & Data Engineering**: Go, Python, TypeScript, PostgreSQL, BigQuery
-- **Distributed Systems**: Rust, Go, gRPC, WebAssembly, Kubernetes
-- **Observability & Platform Engineering**: OpenTelemetry, Prometheus, Grafana, Argo CD, Docker
-- **AI-Assisted Engineering**: Claude, Gemini, Vertex AI, RAG, embeddings, AI-assisted implementation and review workflows
-- **R&D / Exploration**: PySpark, Delta Lake, eBPF, Terraform, Apache Airflow and related platform technologies
+> 業務課題の発見から設計・実装・本番運用まで一気通貫で担当するエンジニア。  
+> I turn ambiguous operational problems into production systems — from requirements through deployment and operations.
 
 ---
 
-## Production Work
+## Production Work / 現職プロジェクト
 
-### Internal Business Platform — Platform / Application Engineering
-Built an internal business system from requirements through production cutover in ~4 months, working across application, data, cloud infrastructure, deployment, and operations.
+### Internal Business Platform — グーネットエクスチェンジ (2026–Present)
 
-- Go / Python / React / TypeScript
-- PostgreSQL / Cloud SQL
-- GCP (Cloud Run, Cloud Functions, Cloud Storage, Vertex AI, Cloud Build)
-- CI/CD, observability, incident-oriented tooling and operational improvements
+中古車輸出業向け業務管理システムの内製化。業務観察・要件定義から本番稼働まで単独で担当。  
+Built and shipped an internal business management system from scratch as a sole engineer.
 
-**Impact**: estimated ¥8–15M cost avoidance compared with full external development  
-**Velocity**: 1,431 commits across 22 repositories in 4 months, alongside meetings and internal support
+- **Stack**: Go · React · TypeScript · PostgreSQL · GCP (Cloud Run / Cloud SQL / Vertex AI / Pub/Sub) · Kubernetes · Argo CD · OpenTelemetry · Grafana
+- **Velocity**: 75 working days · 153 PRs · production cutover in ~4 months
+- **Impact**: ¥8–15M cost avoidance vs. external development estimate · 2-day MVP during a data-leak incident
 
 ---
 
 ## Open Source & R&D
 
-### 🏗️ [marketplace-lakehouse-reference](https://github.com/flipslidersand/marketplace-lakehouse-reference)
-**Medallion Architecture Data Platform**  
-PySpark · Delta Lake · Streamlit · CI/CD
+| Project | Description | Stack |
+|---------|-------------|-------|
+| [marketplace-lakehouse-reference](https://github.com/flipslidersand/marketplace-lakehouse-reference) | Medallion Architecture data pipeline (Bronze→Silver→Gold) · 31 tests | PySpark · Delta Lake · Streamlit |
+| [context-smith](https://github.com/flipslidersand/context-smith) | AI context compiler CLI — extracts task-relevant code for LLMs · v0.1.0 | Rust · BM25 · Tree-sitter |
+| [fluxion](https://github.com/flipslidersand/fluxion) | Distributed WebAssembly job scheduler with DAG execution | Rust · WebAssembly · MCP |
+| [dataguard-rail](https://github.com/flipslidersand/dataguard-rail) | Data quality & lineage platform · 6 phases complete | Rust · Go · OpenTelemetry |
+| [stream-rail](https://github.com/flipslidersand/stream-rail) | Stream processing engine with tumbling windows & watermarks | Go · BadgerDB · NATS |
+| [wasm-runtime](https://github.com/flipslidersand/wasm-runtime) | WebAssembly binary parser · 136 tests · all sections (0–12) | Rust |
+| [reasoning-mesh](https://github.com/flipslidersand-labs/reasoning-mesh) | RAG-LLM orchestration — router + knowledge engine | Go · Qdrant · Ollama |
+| [oss-radar](https://github.com/flipslidersand-labs/oss-radar) | OSS trending collector with semantic search · MINIPC cron | Python · Qdrant |
+| [scam-alert](https://github.com/flipslidersand/scam-alert) | OCR-based scam pattern detector · Cloud Run | Go · GCP Vision API · React |
+| [city-score](https://github.com/flipslidersand/city-score) | City livability scoring with original indicators · e-Stat API | Python · Streamlit |
 
-Reference implementation of a Bronze → Silver → Gold pipeline for multi-source e-commerce data, with incremental processing and data-quality validation.
-
-### ⚙️ [fluxion](https://github.com/flipslidersand/fluxion)
-**Distributed WebAssembly Job Scheduler**  
-Rust · WebAssembly · MCP
-
-R&D project exploring DAG scheduling, sandboxed execution, distributed workers, and workflow orchestration.
-
-### 🧠 [context-smith](https://github.com/flipslidersand/context-smith)
-**AI Context Compiler (CLI)**  
-Rust · Tantivy · Tree-sitter · BM25 + vector search
-
-Extracts task-relevant code from Git repositories into token-budgeted context bundles for LLMs. Offline-first, dependency-light, with ADR-documented design decisions.
-
-### 🌊 [stream-rail](https://github.com/flipslidersand/stream-rail)
-**Stream Processing Engine**  
-Go · Tumbling Windows · BadgerDB · NATS
-
-Real-time event aggregation over tumbling windows with watermarks, persistent state, and pluggable ingestion/notification — built to explore stream-processing internals.
-
-### 🧩 [wasm-runtime](https://github.com/flipslidersand/wasm-runtime)
-**WebAssembly Binary Parser**  
-Rust · LEB128 · 136 tests
-
-Decodes every known section (ids 0–12) of the WebAssembly MVP binary format into typed structs, with a `wasm-dump` CLI.
-
-### 🔍 [scam-alert](https://github.com/flipslidersand/scam-alert)
-**Screenshot-to-DB Scam Pattern Detector**  
-Go · GCP Vision API · React
-
-OCR-based pipeline that extracts text from scam screenshots, classifies patterns against a database, and surfaces matches via a React web UI. Deployed on Cloud Run.
-
-### 📡 [oss-radar](https://github.com/flipslidersand-labs/oss-radar)
-**OSS Trending Collector & Semantic Search**  
-Python · Qdrant · GitHub API
-
-Aggregates GitHub trending, ossinsight, and bestofjs into a Qdrant vector store for natural-language queries over OSS activity data. Scheduled via cron with MCP integration.
-
-### 🏙️ [city-score](https://github.com/flipslidersand/city-score)
-**City Livability Scoring Engine**  
-Python · e-Stat API · Streamlit
-
-Scores Japanese cities across 6 original indicators (career sustainability, life-cost efficiency, post-retirement employment, etc.) using public statistical data. CLI + Streamlit UI.
-
----
-
-## 📋 Project Board
-
-Shipped projects are tracked on a public board — every card links to a real repository with its Issue ↔ PR ↔ commit trail.
-
-▶️ **[Portfolio Roadmap — GitHub Projects](https://github.com/users/flipslidersand/projects/11)**
-
-```mermaid
-timeline
-    title Shipped Projects
-    mesh-drop        : Distributed file delivery : v0.2.0 released
-    sentinel-mesh    : Distributed monitoring mesh : 9 phases complete
-    wasm-runtime     : WASM binary parser : 136 tests
-    stream-rail      : Stream processing engine : 6 phases complete
-    context-smith    : AI context compiler (CLI) : v0.1.0 released
-    scam-alert       : OCR scam detector : Go + GCP
-    oss-radar        : OSS semantic search : Python + Qdrant
-    city-score       : City livability scorer : Python + e-Stat
-```
+▶️ **[Portfolio Board](https://github.com/users/flipslidersand/projects/11)** — every card links to Issues ↔ PRs ↔ commits
 
 ---
 
 ## Tech Stack
 
 ```text
-Production / frequent use:
-  Go · Python · TypeScript · React · PostgreSQL
-  GCP · Cloud Run · Cloud SQL · Cloud Build
-  Docker · GitHub Actions · OpenTelemetry · Prometheus · Grafana
+Primary / 現職使用:
+  Go · TypeScript · React · Python · PostgreSQL
+  GCP (Cloud Run · Cloud SQL · Vertex AI · Pub/Sub · Secret Manager)
+  Docker · Kubernetes · Argo CD · GitHub Actions
+  OpenTelemetry · Prometheus · Grafana
   Claude · Gemini · Vertex AI · RAG · Vector Search
 
-R&D / project use:
-  Rust · WebAssembly · Kubernetes · Argo CD
-  PySpark · Delta Lake · BigQuery · Terraform · Apache Airflow · eBPF
+R&D / 個人開発:
+  Rust · WebAssembly · PySpark · Delta Lake
+  Qdrant · BadgerDB · NATS · Terraform · k3s
 ```
 
 ---
 
-## Featured Articles
+## Writing / 発信
 
+**Zenn** (Japanese · 46 articles): [zenn.dev/flipslidersand](https://zenn.dev/flipslidersand)  
+技術記事・AI-native 開発フロー・OSS 実装記録
+
+**Dev.to** (English · 4 articles): [dev.to/flipslidersand](https://dev.to/flipslidersand)
+- [I Thought I Used 1 Billion Tokens in Claude Code Last Week. Turns Out 97% Was Cache.](https://dev.to/flipslidersand)
 - [AI-Native Development Flow: 4 Months, 153 PRs, Production](https://dev.to/flipslidersand/ai-native-development-flow-4-months-153-prs-production-10j3)
 - [The AI Is Fast. The Decisions Are Mine.](https://dev.to/flipslidersand/the-ai-is-fast-the-decisions-are-mine-35p5)
-- [People Who Resist Change Are Often Protecting Something](https://dev.to/flipslidersand/people-who-resist-change-are-often-protecting-something-1pgn)
 
 ---
 
-## Let's Connect
+## Contact
 
-- **GitHub**: [github.com/flipslidersand](https://github.com/flipslidersand)
 - **Zenn**: [zenn.dev/flipslidersand](https://zenn.dev/flipslidersand)
-- **Dev.to**: [dev.to/flipslidersand](https://dev.to/flipslidersand)
 - **Email**: yukihanajob2025@gmail.com
-
-Looking for Forward Deployed Engineer / Data Platform Engineer roles. Open to relocation; remote preferred.
+- **Open to**: FDE / Applied AI Engineer / Solution Architect roles · Remote preferred · Relocation possible
