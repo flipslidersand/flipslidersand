@@ -34,6 +34,10 @@ Built and shipped an internal business management system from scratch as a sole 
 | [oss-radar](https://github.com/flipslidersand-labs/oss-radar) | OSS trending collector with semantic search · MINIPC cron | Python · Qdrant |
 | [scam-alert](https://github.com/flipslidersand/scam-alert) | OCR-based scam pattern detector · Cloud Run | Go · GCP Vision API · React |
 | [city-score](https://github.com/flipslidersand/city-score) | City livability scoring with original indicators · e-Stat API | Python · Streamlit |
+| [loopnest-core](https://github.com/flipslidersand-labs/loopnest-core) | BtoB Quote-to-Billing platform (M01–M14) | TypeScript · PostgreSQL |
+| [phone-guard](https://github.com/flipslidersand/phone-guard) | Fixed-line scam guard — ESP32 FSK decode + LINE notification on unknown numbers | Go · GCP · ESP32 |
+| [pachinko-analysis](https://github.com/flipslidersand/pachinko-analysis) | Pachinko/slot prediction system with SHAP feature importance & FastAPI | Python · SHAP · FastAPI |
+| [doc-ingest](https://github.com/flipslidersand-labs/doc-ingest) | Document ingestion pipeline — external API docs / arxiv papers → Qdrant | Python · Qdrant |
 
 ▶️ **[Portfolio Board](https://github.com/users/flipslidersand/projects/11)** — every card links to Issues ↔ PRs ↔ commits
 
