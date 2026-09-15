@@ -1,7 +1,5 @@
 # flipslidersand — Forward Deployed Engineer / Applied AI Engineer
 
-**花島 祐輝 | Yuki Hanajima**
-
 > 業務課題の発見から設計・実装・本番運用まで一気通貫で担当するエンジニア。  
 > I turn ambiguous operational problems into production systems — from requirements through deployment and operations.
 
@@ -9,7 +7,7 @@
 
 ## Production Work / 現職プロジェクト
 
-### Internal Business Platform — グーネットエクスチェンジ (2026–Present)
+### Internal Business Platform — 中古車輸出業 (2026–Present)
 
 中古車輸出業向け業務管理システムの内製化。業務観察・要件定義から本番稼働まで単独で担当。  
 Built and shipped an internal business management system from scratch as a sole engineer.
@@ -75,5 +73,5 @@ R&D / 個人開発:
 ## Contact
 
 - **Zenn**: [zenn.dev/flipslidersand](https://zenn.dev/flipslidersand)
-- **Email**: yukihanajob2025@gmail.com
+- **Email**: yukihanastudy@gmail.com
 - **Open to**: FDE / Applied AI Engineer / Solution Architect roles · Remote preferred · Relocation possible
