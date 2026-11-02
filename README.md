@@ -20,6 +20,9 @@ Built and shipped an internal business management system from scratch as a sole 
 
 ## Open Source & R&D
 
+R&D リポジトリの多くは組織 **[flipslidersand-labs](https://github.com/flipslidersand-labs)** にあります(同一人物の個人ラボ)。  
+Most R&D repositories live in the **[flipslidersand-labs](https://github.com/flipslidersand-labs)** organization — my personal lab.
+
 | Project | Description | Stack |
 |---------|-------------|-------|
 | [marketplace-lakehouse-reference](https://github.com/flipslidersand/marketplace-lakehouse-reference) | Medallion Architecture data pipeline (Bronze→Silver→Gold) · 31 tests | PySpark · Delta Lake · Streamlit |
@@ -73,5 +76,6 @@ R&D / 個人開発:
 ## Contact
 
 - **Zenn**: [zenn.dev/flipslidersand](https://zenn.dev/flipslidersand)
+- **GitHub Org**: [flipslidersand-labs](https://github.com/flipslidersand-labs)
 - **Email**: yukihanastudy@gmail.com
 - **Open to**: FDE / Applied AI Engineer / Solution Architect roles · Remote preferred · Relocation possible
