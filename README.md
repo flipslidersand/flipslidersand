@@ -25,18 +25,18 @@ Most R&D repositories live in the **[flipslidersand-labs](https://github.com/fli
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [marketplace-lakehouse-reference](https://github.com/flipslidersand/marketplace-lakehouse-reference) | Medallion Architecture data pipeline (Bronze→Silver→Gold) · 31 tests | PySpark · Delta Lake · Streamlit |
-| [context-smith](https://github.com/flipslidersand/context-smith) | AI context compiler CLI — extracts task-relevant code for LLMs · v0.1.0 | Rust · BM25 · Tree-sitter |
+| [marketplace-lakehouse-reference](https://github.com/flipslidersand-labs/marketplace-lakehouse-reference) | Medallion Architecture data pipeline (Bronze→Silver→Gold) · 31 tests | PySpark · Delta Lake · Streamlit |
+| [context-smith](https://github.com/flipslidersand-labs/context-smith) | AI context compiler CLI — extracts task-relevant code for LLMs · v0.1.0 | Rust · BM25 · Tree-sitter |
 | [fluxion](https://github.com/flipslidersand-labs/fluxion) | Distributed WebAssembly job scheduler with DAG execution | Rust · WebAssembly · MCP |
-| [dataguard-rail](https://github.com/flipslidersand/dataguard-rail) | Data quality & lineage platform · 6 phases complete | Rust · Go · OpenTelemetry |
-| [stream-rail](https://github.com/flipslidersand/stream-rail) | Stream processing engine with tumbling windows & watermarks | Go · BadgerDB · NATS |
-| [wasm-runtime](https://github.com/flipslidersand/wasm-runtime) | WebAssembly binary parser · 136 tests · all sections (0–12) | Rust |
+| [dataguard-rail](https://github.com/flipslidersand-labs/dataguard-rail) | Data quality & lineage platform · 6 phases complete | Rust · Go · OpenTelemetry |
+| [stream-rail](https://github.com/flipslidersand-labs/stream-rail) | Stream processing engine with tumbling windows & watermarks | Go · BadgerDB · NATS |
+| [wasm-runtime](https://github.com/flipslidersand-labs/wasm-runtime) | WebAssembly binary parser · 136 tests · all sections (0–12) | Rust |
 | [reasoning-mesh](https://github.com/flipslidersand-labs/reasoning-mesh) | RAG-LLM orchestration — router + knowledge engine | Go · Qdrant · Ollama |
 | [oss-radar](https://github.com/flipslidersand-labs/oss-radar) | OSS trending collector with semantic search · MINIPC cron | Python · Qdrant |
-| [scam-alert](https://github.com/flipslidersand/scam-alert) | OCR-based scam pattern detector · Cloud Run | Go · GCP Vision API · React |
-| [city-score](https://github.com/flipslidersand/city-score) | City livability scoring with original indicators · e-Stat API | Python · Streamlit |
+| [scam-alert](https://github.com/flipslidersand-labs/scam-alert) | OCR-based scam pattern detector · Cloud Run | Go · GCP Vision API · React |
+| [city-score](https://github.com/flipslidersand-labs/city-score) | City livability scoring with original indicators · e-Stat API | Python · Streamlit |
 | [loopnest-core](https://github.com/flipslidersand-labs/loopnest-core) | BtoB Quote-to-Billing platform (M01–M14) | TypeScript · PostgreSQL |
-| [phone-guard](https://github.com/flipslidersand/phone-guard) | Fixed-line scam guard — ESP32 FSK decode + LINE notification on unknown numbers | Go · GCP · ESP32 |
+| [phone-guard](https://github.com/flipslidersand-labs/phone-guard) | Fixed-line scam guard — ESP32 FSK decode + LINE notification on unknown numbers | Go · GCP · ESP32 |
 | [doc-ingest](https://github.com/flipslidersand-labs/doc-ingest) | Document ingestion pipeline — external API docs / arxiv papers → Qdrant | Python · Qdrant |
 
 ▶️ **[Portfolio Board](https://github.com/users/flipslidersand/projects/11)** — every card links to Issues ↔ PRs ↔ commits
