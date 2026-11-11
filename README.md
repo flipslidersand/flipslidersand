@@ -74,5 +74,5 @@ R&D / 個人開発:
 
 - **Zenn**: [zenn.dev/flipslidersand](https://zenn.dev/flipslidersand)
 - **GitHub Org**: [flipslidersand-labs](https://github.com/flipslidersand-labs)
-- **Email**: yukihanastudy@gmail.com
+- **Email**: contact.flipslidersand.hurler569@silomails.com
 - **Open to**: FDE / Applied AI Engineer / Solution Architect roles · Remote preferred · Relocation possible
